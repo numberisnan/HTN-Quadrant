@@ -1,2 +1,18 @@
-# HTN-Quadrant
- An audio device for the hearing impaired
+# Quadrant.
+# Our Inspiration for Quadrant.
+Our group first discussed an alternative to headphones, as they can typically become cumbersome and annoying, however we realized that at the same time solving a comfort issue, we are also able to solve an accessibility issue for people that play video games, and that may have impaired hearing. Approximately 360+ million people worldwide endeavour hearing loss from a mild to profound level according to the World Health Organization (2016). From acknowledging our discussions and the research we have come across, we began to understand its importance and concluded we wanted to serve a greater purpose for our project. 
+
+## What Quadrant. does
+Those with hearing loss can be at a severe disadvantage in regards to interacting with media, especially in the world of competitive gaming. However, by developing a technology that allows for the player to utilize a system of visual cues, not only would this feel more inclusive to hearing impaired players, but would also elevate the ability of play and performance as well. This technology, in essence, is something that we have developed called **Quadrant.**. It is an accessibility tool that is able to input game audio and output it as a visual spectrum, creating greater user awareness and object/player detection during gameplay. This technology interfaces with LEDs using the microcontroller, while a python sound capturing background process (pyaudio) processes and serializes data (using numpy) to be sent over a USB wire. The Arduino calculates which light to turn on from the sent data.
+
+## What we used to build Quadrant. 
+The way in which we were able to come to the implementation and execution of our idea began with an Arduino microcontroller as the primary component for our design of **Quadrant.**. From utilizing Arduino, our team was able to successfully assemble a uniform collection of LEDs strategically positioned onto a breadboard that serves as the hardware. We complimented the hardware aspect of our product with an intricate embedded software program using Python, thoroughly developing serial communication between our program and the Arduino we used. 
+
+## Challenges our team encountered 
+The first challenge we came across was recording of the audio. This was first attempted when our team began to dissect an AUX cable, and use it as the input to receive the audio for recording. However, after dissecting the AUX cable, we realized that the actual wire was too thin in order to use it as a receiver, and thus became unusable for our project. Additionally, alligator clamps that we had attempted to use kept attaching to the wire casing as opposed to the wire itself due to its aforementioned thinness and lack in girth. 
+
+## Accomplishments our team is proud of 
+Although we were confronted with several hardware and software problems in addition to errors, we were more than willing and able to find group resiliency and determination. One achievement that we are particularly proud of is the presentation video, which took a three way group effort to accomplish. On the creation side, since we knew nothing about audio sampling and processing, creating our own functioning algorithm to find the "dominant side" was a great achievement when it finally worked. 
+
+## Next steps for Quadrant.
+For **Quadrant.** and our team, we would be elated to improve and expand upon our product for the hearing impaired from a technological as well as business perspective in order to reach out to as many of those who would find it helpful and effective! One idea is to make the lights more accessible, by using some kind of mount (like glasses). Another would be to use a more advanced algorithm that can pick out certain sounds, improving the overall precision of the device.
